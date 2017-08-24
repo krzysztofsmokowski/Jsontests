@@ -1,3 +1,4 @@
+'''Taking argparse arguments for desired output'''
 import json
 import argparse
 from urllib import request
