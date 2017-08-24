@@ -1,0 +1,8 @@
+git : branche, pull requesty
+codereview
+flask
+flow control
+sql alchemy
+init new iter
+with / closures
+pep8, pep20, pep 257
