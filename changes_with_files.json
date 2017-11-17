@@ -1,0 +1,122 @@
+[
+    {
+      "id": "gerrit~master~I7ea46d2e2ee5c64c0d807677859cfb7d90b8966a",
+      "project": "gerrit",
+      "branch": "master",
+      "change_id": "I7ea46d2e2ee5c64c0d807677859cfb7d90b8966a",
+      "subject": "Use an EventBus to manage star icons",
+      "status": "NEW",
+      "created": "2012-04-25 00:52:25.580000000",
+      "updated": "2012-04-25 00:52:25.586000000",
+      "mergeable": true,
+      "insertions": 16,
+      "deletions": 7,
+      "_number": 97,
+      "owner": {
+        "name": "Shawn Pearce"
+      },
+      "current_revision": "184ebe53805e102605d11f6b143486d15c23a09c",
+      "revisions": {
+        "184ebe53805e102605d11f6b143486d15c23a09c": {
+          "kind": "REWORK",
+          "_number": 1,
+          "ref": "refs/changes/97/97/1",
+          "fetch": {
+            "git": {
+              "url": "git://localhost/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch git://localhost/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull git://localhost/gerrit refs/changes/97/97/1"
+              }
+            },
+            "http": {
+              "url": "http://myuser@127.0.0.1:8080/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull http://myuser@127.0.0.1:8080/gerrit refs/changes/97/97/1"
+              }
+            },
+            "ssh": {
+              "url": "ssh://myuser@*:29418/gerrit",
+              "ref": "refs/changes/97/97/1",
+              "commands": {
+                "Checkout": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git checkout FETCH_HEAD",
+                "Cherry-Pick": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git cherry-pick FETCH_HEAD",
+                "Format-Patch": "git fetch ssh://myuser@*:29418/gerrit refs/changes/97/97/1 \u0026\u0026 git format-patch -1 --stdout FETCH_HEAD",
+                "Pull": "git pull ssh://myuser@*:29418/gerrit refs/changes/97/97/1"
+              }
+            }
+          },
+          "commit": {
+            "parents": [
+              {
+                "commit": "1eee2c9d8f352483781e772f35dc586a69ff5646",
+                "subject": "Migrate contributor agreements to All-Projects."
+              }
+            ],
+            "author": {
+              "name": "Shawn O. Pearce",
+              "email": "sop@google.com",
+              "date": "2012-04-24 18:08:08.000000000",
+              "tz": -420
+            },
+            "committer": {
+              "name": "Shawn O. Pearce",
+              "email": "sop@google.com",
+              "date": "2012-04-24 18:08:08.000000000",
+              "tz": -420
+            },
+            "subject": "Use an EventBus to manage star icons",
+            "message": "Use an EventBus to manage star icons\n\nImage widgets that need to ..."
+          },
+          "files": {
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/ChangeCache.java": {
+              "lines_deleted": 8,
+              "size_delta": -412,
+              "size": 7782
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/ChangeDetailCache.java": {
+              "lines_inserted": 1,
+              "size_delta": 23,
+              "size": 6762
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/ChangeScreen.java": {
+              "lines_inserted": 11,
+              "lines_deleted": 19,
+              "size_delta": -298,
+              "size": 47023
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/ChangeTable.java": {
+              "lines_inserted": 23,
+              "lines_deleted": 20,
+              "size_delta": 132,
+              "size": 17727
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/StarCache.java": {
+              "status": "D",
+              "lines_deleted": 139,
+              "size_delta": -5512,
+              "size": 13098
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/changes/StarredChanges.java": {
+              "status": "A",
+              "lines_inserted": 204,
+              "size_delta": 8345,
+              "size": 8345
+            },
+            "gerrit-gwtui/src/main/java/com/google/gerrit/client/ui/Screen.java": {
+              "lines_deleted": 9,
+              "size_delta": -343,
+              "size": 5385
+            }
+          }
+        }
+      }
+    }
+  ]
